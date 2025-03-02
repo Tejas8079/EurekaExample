@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: desease-service
+
+server:
+  port: 9083
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
